@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Virus</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav id="navigation">
+                <a href="#" class="logo">VI<span style="color: red;">R</span>US</a>
+                <a aria-label="mobile menu" class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <ul class="menu-left">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SYMPTOMS</a></li>
+                    <li><a href="#">DIAGNOSIS</a></li>
+                    <li><a href="#">OUTBREAK</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row" style="height: 100%; margin-bottom: 25%;">
+            <div class="col-md-6">
+                <div class="content">
+                    <h1 style="font-weight: 1000;">2020 - COVID</h1>
+                    <p>CoronaVirus typically affects respiratory tract of mammals, including humans.<br>
+                        Associated with common cold, pneumonia and severe acute respiratory syndrome.
+                    </p><br><br><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span style="color: red;font-size: 2em; font-weight: 1000;">1,900</span><br>
+                            <h3>Death Trolls</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <span style="color: red; font-size: 2em; font-weight: 1000;">72,000</span><br>
+                            <h3>Infected Cases</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="content1">
+                    <img style=" width: 70%;" class="rounded mx-auto d-block" src="{% static 'image.webp' %}" alt="Corona Virus">
+                </div>
+            </div>
+        </div>
+        <hr>
+        
+        <div class="row">
+            <h1 style="color:green;">You are Safe!!</h1>
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
